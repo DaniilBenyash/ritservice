@@ -1,0 +1,34 @@
+@import "@/app/ui/variables.scss";
+
+.header {
+    background-color: $color-primary;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1150px;
+    padding: 15px 30px;
+    margin: 0 auto;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    color: $color-secondary;
+}
+
+.phone_number {
+    font-weight: 700;
+    font-size: 22px;
+    color: $color-secondary;
+}

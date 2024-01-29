@@ -1,0 +1,14 @@
+@import "@/app/ui/variables.scss";
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: $color-secondary;
+    
+    a {
+        font-weight: 600;
+        font-size: 18px;
+        
+    }
+}
